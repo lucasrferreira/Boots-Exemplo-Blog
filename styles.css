@@ -1,0 +1,190 @@
+/* style.css */
+.container, .container-fluid {
+ padding-right: 5px;
+ padding-left: 5px;
+ padding-top: 15px;
+ padding-bottom: 15px;
+}
+
+@font-face {
+font-family: sacramento;
+src: url(fonts/Sacramento-Regular.ttf);
+}
+@font-face {
+font-family: castal;
+src: url(fonts/Castal-Street.ttf);
+}
+
+body{
+	background-image: url(imgs/backgroud.png);
+}
+
+
+[class*="col-"]{
+ padding: 10px 10px;
+}
+
+.row{
+	margin: 0px;
+}
+
+
+.header{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.head{  
+}
+.head > img{
+	position: center;
+}
+
+
+/******* MENU ********/
+#primary_nav_wrap
+{
+/*
+	text-align: center;
+	vertical-align: center;
+	left: 50%;
+	position: relative;
+	transform: translateX(-50%);*/
+
+	z-index: 9999;
+	margin-top:15px
+}
+
+#primary_nav_wrap ul
+{
+
+	z-index: 9999;
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:4px;
+	padding:4px
+}
+
+#primary_nav_wrap ul a
+{
+
+	z-index: 9999;
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-weight:700;
+	font-size:30px;
+	line-height:35px;
+	padding: 10px 15px;
+	font-family: sacramento;
+}
+#primary_nav_wrap ul a:hover
+{
+	font-size: 40px;
+}
+
+#primary_nav_wrap ul li
+{
+
+	z-index: 9999;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+	background:#ddd;
+	z-index: 9999
+}
+/*
+#primary_nav_wrap ul li:hover
+{	
+	z-index: 9999;
+}*/
+
+/*#primary_nav_wrap ul ul
+{
+	z-index: 9999;
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
+}*/
+
+/*#primary_nav_wrap ul ul li
+{
+	z-index: 9999;
+	float:none;
+	width: 100%;
+}*/
+
+/*#primary_nav_wrap ul ul a
+{
+	z-index: 9999;
+	line-height:100%;
+	padding:10px 15px
+}*/
+
+/*#primary_nav_wrap ul ul ul
+{
+	z-index: 9999;
+	top:0;
+	left:100%
+}
+*/
+/*#primary_nav_wrap ul li:hover > ul
+{
+	z-index: 9999;
+	display:block
+}
+*/
+.menu{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/******* END MENU ****/
+
+
+
+.post{
+	background-color: #fff;
+
+}
+.content-post{
+	background-color: #fff;
+	height: 100%;
+	font-size: 30px;
+	font-family: sacramento;
+
+}
+.post > h1{
+	font-family: castal !important;
+	font-style: normal;
+	font-weight: 500;
+}
+
+.content-post-rodape {
+	vertical-align: bottom;
+	height: 30px;
+}
+/*
+div {
+ border: 1px solid;
+
+}*/
+
+/*div[role="main"] {
+ background-color: #f9f9f9;
+}*/
